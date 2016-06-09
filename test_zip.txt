@@ -1,0 +1,6 @@
+*** Settings ***
+Library    ArchiveLibrary
+
+*** Test Cases ***
+Create Zip
+	Create Zip From Files In Directory    D:\\Work\\E2E\\RobotFramework\\RobotFramework\\test_result    robotzip.zip

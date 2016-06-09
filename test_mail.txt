@@ -1,0 +1,6 @@
+*** Settings ***
+Library    GmailEmailLibrary
+
+*** Test Cases ***
+Send Email Has Attachment Test
+    Send Mail With Attachment    denuralz@gmail.com    hinata304    denural@live.com    [Robotframework] send this email    Test send email and attachment file    robotzip.zip

@@ -1,0 +1,13 @@
+*** Settings ***
+Library    Selenium2Library
+
+*** Variables ***
+${FF_PROFILE}    D:\\Work\\Robot Framework\\FF_Profile
+${URL}    http://www.google.com
+${text}    Wikipedia:Search engine test - Wikipedia, the free ...		
+
+*** Testcases ***
+Hello World
+	Open Browser    ${URL}    ff_profile_dir=${FF_PROFILE}
+	Input Text    q    testsearch
+	Click Button    btnG
